@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap");
+
+/* Styling for navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 162, 57);
+  width: 100%;
+  height: 40px;
+  font-family: Merriweather;
+  color: black;
+  font-weight: bold;
+}
+
+.left img {
+  margin-top: 7px;
+  margin-left: 97px;
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+}
+
+.right {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.right button {
+  background-color: white;
+  border: white;
+  width: 85px;
+  height: 30px;
+  border-radius: 5px;
+  font-family: Merriweather;
+  cursor: pointer;
+  border-color: black;
+}
+
+.nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  font-family: Merriweather;
+  color: black;
+  font-weight: bold;
+}
+
+.logout {
+  width: 30px;
+  cursor: pointer;
+  height: 30px;
+  margin-right: 145px;
+}
