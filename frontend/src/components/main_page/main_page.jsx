@@ -1,4 +1,4 @@
-import backgroundVideo from "../../assets/mnpg_vdo.mp4";
+import backgroundVideo from "../../assets/mnpg_vdo.mp4"
 import { Link } from 'react-router-dom';
 import Navbar from "../nav_bar/nav_bar";
 
