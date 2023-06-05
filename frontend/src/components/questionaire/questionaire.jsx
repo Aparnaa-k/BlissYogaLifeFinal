@@ -8,7 +8,7 @@ const Questionaire = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('http://localhost:7000/api/get')
+    fetch('https://blissyogalife.onrender.com/api/get')
       .then(response => response.json())
       .then(data => {
         setData(data);
