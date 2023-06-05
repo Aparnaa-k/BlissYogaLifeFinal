@@ -17,7 +17,7 @@ const Details = () => {
 
   // Using the useEffect to fetch the data
   useEffect(() => {
-    fetch('http://localhost:7000/api/get')
+    fetch('https://blissyogalife.onrender.com/api/get')
       .then(response => response.json())
       .then(data => {
         setData(data);
