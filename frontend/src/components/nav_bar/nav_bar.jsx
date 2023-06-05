@@ -25,6 +25,7 @@ function Navbar() {
           <div className="nav2" >
 
             <div className="logout">
+              <h3>Hello! User</h3>
               <CgProfile
                 fontSize={30}
                 onClick={() => {

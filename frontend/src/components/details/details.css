@@ -61,7 +61,7 @@ ul{
     margin-left: 235px;
 }
 
-.bookaslot2{
+.book_a_slot2{
     background-color: rgb(255, 162, 57);
     height: 85%;
     width: 90%;
@@ -83,7 +83,7 @@ ul{
     height: 50%;
 }
 
-.bookaslot3{
+.book_a_slot3{
     display: none;
     background-color: white solid;
 }

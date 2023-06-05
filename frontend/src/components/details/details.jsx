@@ -67,7 +67,7 @@ const Details = () => {
               Book a slot
             </button>
           </div>
-          <div className={display ? 'bookaslot2' : 'bookaslot3'}>
+          <div className={display ? 'book_a_slot2' : 'book_a_slot3'}>
             <h2>Book Your Slot</h2>
             <span>
               <IoExit onClick={() => setDisplay(false)} />
