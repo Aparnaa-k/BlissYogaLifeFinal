@@ -8,7 +8,6 @@ import "./nav_bar.css";
 
 function Navbar() {
   const { logout  } = useAuth0();
-
   const isHomePage = location.pathname === "/";
 
   return (
